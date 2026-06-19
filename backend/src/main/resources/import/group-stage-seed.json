@@ -4,12 +4,12 @@
                      ],
     "teams":  [
                   {
-                      "name":  "México",
+                      "name":  "MÃ©xico",
                       "fifaCode":  "MEX",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "África do Sul",
+                      "name":  "Ãfrica do Sul",
                       "fifaCode":  "RSA",
                       "flagUrl":  null
                   },
@@ -19,17 +19,17 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "República Tcheca",
+                      "name":  "RepÃºblica Tcheca",
                       "fifaCode":  "CZE",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Canadá",
+                      "name":  "CanadÃ¡",
                       "fifaCode":  "CAN",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Bósnia e Herzegovina",
+                      "name":  "BÃ³snia e Herzegovina",
                       "fifaCode":  "BIH",
                       "flagUrl":  null
                   },
@@ -39,7 +39,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Suíça",
+                      "name":  "SuÃ­Ã§a",
                       "fifaCode":  "SUI",
                       "flagUrl":  null
                   },
@@ -59,7 +59,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Escócia",
+                      "name":  "EscÃ³cia",
                       "fifaCode":  "SCO",
                       "flagUrl":  null
                   },
@@ -74,7 +74,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Austrália",
+                      "name":  "AustrÃ¡lia",
                       "fifaCode":  "AUS",
                       "flagUrl":  null
                   },
@@ -89,7 +89,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Curaçao",
+                      "name":  "CuraÃ§ao",
                       "fifaCode":  "CUW",
                       "flagUrl":  null
                   },
@@ -104,27 +104,27 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Países Baixos",
+                      "name":  "PaÃ­ses Baixos",
                       "fifaCode":  "NED",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Japão",
+                      "name":  "JapÃ£o",
                       "fifaCode":  "JPN",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Suécia",
+                      "name":  "SuÃ©cia",
                       "fifaCode":  "SWE",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Tunísia",
+                      "name":  "TunÃ­sia",
                       "fifaCode":  "TUN",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Bélgica",
+                      "name":  "BÃ©lgica",
                       "fifaCode":  "BEL",
                       "flagUrl":  null
                   },
@@ -134,12 +134,12 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Irã",
+                      "name":  "IrÃ£",
                       "fifaCode":  "IRN",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Nova Zelândia",
+                      "name":  "Nova ZelÃ¢ndia",
                       "fifaCode":  "NZL",
                       "flagUrl":  null
                   },
@@ -154,7 +154,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Arábia Saudita",
+                      "name":  "ArÃ¡bia Saudita",
                       "fifaCode":  "KSA",
                       "flagUrl":  null
                   },
@@ -164,7 +164,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "França",
+                      "name":  "FranÃ§a",
                       "fifaCode":  "FRA",
                       "flagUrl":  null
                   },
@@ -189,17 +189,17 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Argélia",
+                      "name":  "ArgÃ©lia",
                       "fifaCode":  "ALG",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Áustria",
+                      "name":  "Ãustria",
                       "fifaCode":  "AUT",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Jordânia",
+                      "name":  "JordÃ¢nia",
                       "fifaCode":  "JOR",
                       "flagUrl":  null
                   },
@@ -209,17 +209,17 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "República Democrática do Congo",
+                      "name":  "RepÃºblica DemocrÃ¡tica do Congo",
                       "fifaCode":  "COD",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Uzbequistão",
+                      "name":  "UzbequistÃ£o",
                       "fifaCode":  "UZB",
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Colômbia",
+                      "name":  "ColÃ´mbia",
                       "fifaCode":  "COL",
                       "flagUrl":  null
                   },
@@ -229,7 +229,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Croácia",
+                      "name":  "CroÃ¡cia",
                       "fifaCode":  "CRO",
                       "flagUrl":  null
                   },
@@ -239,7 +239,7 @@
                       "flagUrl":  null
                   },
                   {
-                      "name":  "Panamá",
+                      "name":  "PanamÃ¡",
                       "fifaCode":  "PAN",
                       "flagUrl":  null
                   }
@@ -250,7 +250,7 @@
                         "matchNumber":  1,
                         "homeTeamCode":  "MEX",
                         "awayTeamCode":  "RSA",
-                        "startsAt":  "2026-06-11T18:00:00Z",
+                        "startsAt":  "2026-06-11T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -259,7 +259,7 @@
                         "matchNumber":  2,
                         "homeTeamCode":  "KOR",
                         "awayTeamCode":  "CZE",
-                        "startsAt":  "2026-06-11T21:00:00Z",
+                        "startsAt":  "2026-06-12T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -268,7 +268,7 @@
                         "matchNumber":  3,
                         "homeTeamCode":  "CZE",
                         "awayTeamCode":  "RSA",
-                        "startsAt":  "2026-06-18T18:00:00Z",
+                        "startsAt":  "2026-06-18T16:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -277,7 +277,7 @@
                         "matchNumber":  4,
                         "homeTeamCode":  "MEX",
                         "awayTeamCode":  "KOR",
-                        "startsAt":  "2026-06-18T21:00:00Z",
+                        "startsAt":  "2026-06-19T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -286,7 +286,7 @@
                         "matchNumber":  5,
                         "homeTeamCode":  "CZE",
                         "awayTeamCode":  "MEX",
-                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "startsAt":  "2026-06-25T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -295,7 +295,7 @@
                         "matchNumber":  6,
                         "homeTeamCode":  "RSA",
                         "awayTeamCode":  "KOR",
-                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "startsAt":  "2026-06-25T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -304,7 +304,7 @@
                         "matchNumber":  7,
                         "homeTeamCode":  "CAN",
                         "awayTeamCode":  "BIH",
-                        "startsAt":  "2026-06-12T18:00:00Z",
+                        "startsAt":  "2026-06-12T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -313,7 +313,7 @@
                         "matchNumber":  8,
                         "homeTeamCode":  "QAT",
                         "awayTeamCode":  "SUI",
-                        "startsAt":  "2026-06-12T21:00:00Z",
+                        "startsAt":  "2026-06-13T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -322,7 +322,7 @@
                         "matchNumber":  9,
                         "homeTeamCode":  "SUI",
                         "awayTeamCode":  "BIH",
-                        "startsAt":  "2026-06-18T18:00:00Z",
+                        "startsAt":  "2026-06-18T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -331,7 +331,7 @@
                         "matchNumber":  10,
                         "homeTeamCode":  "CAN",
                         "awayTeamCode":  "QAT",
-                        "startsAt":  "2026-06-18T21:00:00Z",
+                        "startsAt":  "2026-06-18T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -340,7 +340,7 @@
                         "matchNumber":  11,
                         "homeTeamCode":  "SUI",
                         "awayTeamCode":  "CAN",
-                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "startsAt":  "2026-06-24T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -349,7 +349,7 @@
                         "matchNumber":  12,
                         "homeTeamCode":  "BIH",
                         "awayTeamCode":  "QAT",
-                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "startsAt":  "2026-06-24T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -358,7 +358,7 @@
                         "matchNumber":  13,
                         "homeTeamCode":  "BRA",
                         "awayTeamCode":  "MAR",
-                        "startsAt":  "2026-06-13T18:00:00Z",
+                        "startsAt":  "2026-06-13T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -367,7 +367,7 @@
                         "matchNumber":  14,
                         "homeTeamCode":  "HTI",
                         "awayTeamCode":  "SCO",
-                        "startsAt":  "2026-06-13T21:00:00Z",
+                        "startsAt":  "2026-06-14T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -376,7 +376,7 @@
                         "matchNumber":  15,
                         "homeTeamCode":  "SCO",
                         "awayTeamCode":  "MAR",
-                        "startsAt":  "2026-06-19T18:00:00Z",
+                        "startsAt":  "2026-06-19T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -385,7 +385,7 @@
                         "matchNumber":  16,
                         "homeTeamCode":  "BRA",
                         "awayTeamCode":  "HTI",
-                        "startsAt":  "2026-06-19T21:00:00Z",
+                        "startsAt":  "2026-06-20T00:30:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -394,7 +394,7 @@
                         "matchNumber":  17,
                         "homeTeamCode":  "SCO",
                         "awayTeamCode":  "BRA",
-                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "startsAt":  "2026-06-24T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -403,7 +403,7 @@
                         "matchNumber":  18,
                         "homeTeamCode":  "MAR",
                         "awayTeamCode":  "HTI",
-                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "startsAt":  "2026-06-24T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -412,7 +412,7 @@
                         "matchNumber":  19,
                         "homeTeamCode":  "USA",
                         "awayTeamCode":  "PAR",
-                        "startsAt":  "2026-06-12T18:00:00Z",
+                        "startsAt":  "2026-06-13T03:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -421,7 +421,7 @@
                         "matchNumber":  20,
                         "homeTeamCode":  "AUS",
                         "awayTeamCode":  "TUR",
-                        "startsAt":  "2026-06-12T21:00:00Z",
+                        "startsAt":  "2026-06-14T04:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -430,7 +430,7 @@
                         "matchNumber":  21,
                         "homeTeamCode":  "TUR",
                         "awayTeamCode":  "PAR",
-                        "startsAt":  "2026-06-19T18:00:00Z",
+                        "startsAt":  "2026-06-20T03:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -439,7 +439,7 @@
                         "matchNumber":  22,
                         "homeTeamCode":  "USA",
                         "awayTeamCode":  "AUS",
-                        "startsAt":  "2026-06-19T21:00:00Z",
+                        "startsAt":  "2026-06-19T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -448,7 +448,7 @@
                         "matchNumber":  23,
                         "homeTeamCode":  "TUR",
                         "awayTeamCode":  "USA",
-                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "startsAt":  "2026-06-26T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -457,7 +457,7 @@
                         "matchNumber":  24,
                         "homeTeamCode":  "PAR",
                         "awayTeamCode":  "AUS",
-                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "startsAt":  "2026-06-26T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -466,7 +466,7 @@
                         "matchNumber":  25,
                         "homeTeamCode":  "GER",
                         "awayTeamCode":  "CUW",
-                        "startsAt":  "2026-06-14T18:00:00Z",
+                        "startsAt":  "2026-06-14T17:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -475,7 +475,7 @@
                         "matchNumber":  26,
                         "homeTeamCode":  "CIV",
                         "awayTeamCode":  "ECU",
-                        "startsAt":  "2026-06-14T21:00:00Z",
+                        "startsAt":  "2026-06-14T23:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -484,7 +484,7 @@
                         "matchNumber":  27,
                         "homeTeamCode":  "ECU",
                         "awayTeamCode":  "CUW",
-                        "startsAt":  "2026-06-20T18:00:00Z",
+                        "startsAt":  "2026-06-21T00:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -493,7 +493,7 @@
                         "matchNumber":  28,
                         "homeTeamCode":  "GER",
                         "awayTeamCode":  "CIV",
-                        "startsAt":  "2026-06-20T21:00:00Z",
+                        "startsAt":  "2026-06-20T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -502,7 +502,7 @@
                         "matchNumber":  29,
                         "homeTeamCode":  "ECU",
                         "awayTeamCode":  "GER",
-                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "startsAt":  "2026-06-25T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -511,7 +511,7 @@
                         "matchNumber":  30,
                         "homeTeamCode":  "CUW",
                         "awayTeamCode":  "CIV",
-                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "startsAt":  "2026-06-25T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -520,7 +520,7 @@
                         "matchNumber":  31,
                         "homeTeamCode":  "NED",
                         "awayTeamCode":  "JPN",
-                        "startsAt":  "2026-06-14T18:00:00Z",
+                        "startsAt":  "2026-06-14T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -529,7 +529,7 @@
                         "matchNumber":  32,
                         "homeTeamCode":  "SWE",
                         "awayTeamCode":  "TUN",
-                        "startsAt":  "2026-06-14T21:00:00Z",
+                        "startsAt":  "2026-06-15T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -538,7 +538,7 @@
                         "matchNumber":  33,
                         "homeTeamCode":  "TUN",
                         "awayTeamCode":  "JPN",
-                        "startsAt":  "2026-06-20T18:00:00Z",
+                        "startsAt":  "2026-06-21T04:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -547,7 +547,7 @@
                         "matchNumber":  34,
                         "homeTeamCode":  "NED",
                         "awayTeamCode":  "SWE",
-                        "startsAt":  "2026-06-20T21:00:00Z",
+                        "startsAt":  "2026-06-20T17:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -556,7 +556,7 @@
                         "matchNumber":  35,
                         "homeTeamCode":  "TUN",
                         "awayTeamCode":  "NED",
-                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "startsAt":  "2026-06-25T23:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -565,7 +565,7 @@
                         "matchNumber":  36,
                         "homeTeamCode":  "JPN",
                         "awayTeamCode":  "SWE",
-                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "startsAt":  "2026-06-25T23:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -574,7 +574,7 @@
                         "matchNumber":  37,
                         "homeTeamCode":  "BEL",
                         "awayTeamCode":  "EGY",
-                        "startsAt":  "2026-06-15T18:00:00Z",
+                        "startsAt":  "2026-06-15T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -583,7 +583,7 @@
                         "matchNumber":  38,
                         "homeTeamCode":  "IRN",
                         "awayTeamCode":  "NZL",
-                        "startsAt":  "2026-06-15T21:00:00Z",
+                        "startsAt":  "2026-06-16T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -592,7 +592,7 @@
                         "matchNumber":  39,
                         "homeTeamCode":  "NZL",
                         "awayTeamCode":  "EGY",
-                        "startsAt":  "2026-06-21T18:00:00Z",
+                        "startsAt":  "2026-06-21T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -601,7 +601,7 @@
                         "matchNumber":  40,
                         "homeTeamCode":  "BEL",
                         "awayTeamCode":  "IRN",
-                        "startsAt":  "2026-06-21T21:00:00Z",
+                        "startsAt":  "2026-06-22T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -610,7 +610,7 @@
                         "matchNumber":  41,
                         "homeTeamCode":  "NZL",
                         "awayTeamCode":  "BEL",
-                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "startsAt":  "2026-06-27T03:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -619,7 +619,7 @@
                         "matchNumber":  42,
                         "homeTeamCode":  "EGY",
                         "awayTeamCode":  "IRN",
-                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "startsAt":  "2026-06-27T03:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -628,7 +628,7 @@
                         "matchNumber":  43,
                         "homeTeamCode":  "ESP",
                         "awayTeamCode":  "CPV",
-                        "startsAt":  "2026-06-15T18:00:00Z",
+                        "startsAt":  "2026-06-15T16:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -637,7 +637,7 @@
                         "matchNumber":  44,
                         "homeTeamCode":  "KSA",
                         "awayTeamCode":  "URU",
-                        "startsAt":  "2026-06-15T21:00:00Z",
+                        "startsAt":  "2026-06-15T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -646,7 +646,7 @@
                         "matchNumber":  45,
                         "homeTeamCode":  "URU",
                         "awayTeamCode":  "CPV",
-                        "startsAt":  "2026-06-21T18:00:00Z",
+                        "startsAt":  "2026-06-21T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -655,7 +655,7 @@
                         "matchNumber":  46,
                         "homeTeamCode":  "ESP",
                         "awayTeamCode":  "KSA",
-                        "startsAt":  "2026-06-21T21:00:00Z",
+                        "startsAt":  "2026-06-21T16:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -664,7 +664,7 @@
                         "matchNumber":  47,
                         "homeTeamCode":  "URU",
                         "awayTeamCode":  "ESP",
-                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "startsAt":  "2026-06-27T00:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -673,7 +673,7 @@
                         "matchNumber":  48,
                         "homeTeamCode":  "CPV",
                         "awayTeamCode":  "KSA",
-                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "startsAt":  "2026-06-27T00:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -682,7 +682,7 @@
                         "matchNumber":  49,
                         "homeTeamCode":  "FRA",
                         "awayTeamCode":  "SEN",
-                        "startsAt":  "2026-06-16T18:00:00Z",
+                        "startsAt":  "2026-06-16T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -691,7 +691,7 @@
                         "matchNumber":  50,
                         "homeTeamCode":  "IRQ",
                         "awayTeamCode":  "NOR",
-                        "startsAt":  "2026-06-16T21:00:00Z",
+                        "startsAt":  "2026-06-16T22:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -700,7 +700,7 @@
                         "matchNumber":  51,
                         "homeTeamCode":  "NOR",
                         "awayTeamCode":  "SEN",
-                        "startsAt":  "2026-06-22T18:00:00Z",
+                        "startsAt":  "2026-06-23T00:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -718,7 +718,7 @@
                         "matchNumber":  53,
                         "homeTeamCode":  "NOR",
                         "awayTeamCode":  "FRA",
-                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "startsAt":  "2026-06-26T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -727,7 +727,7 @@
                         "matchNumber":  54,
                         "homeTeamCode":  "SEN",
                         "awayTeamCode":  "IRQ",
-                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "startsAt":  "2026-06-26T19:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -736,7 +736,7 @@
                         "matchNumber":  55,
                         "homeTeamCode":  "ARG",
                         "awayTeamCode":  "ALG",
-                        "startsAt":  "2026-06-16T18:00:00Z",
+                        "startsAt":  "2026-06-17T01:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -745,7 +745,7 @@
                         "matchNumber":  56,
                         "homeTeamCode":  "AUT",
                         "awayTeamCode":  "JOR",
-                        "startsAt":  "2026-06-16T21:00:00Z",
+                        "startsAt":  "2026-06-17T04:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -754,7 +754,7 @@
                         "matchNumber":  57,
                         "homeTeamCode":  "JOR",
                         "awayTeamCode":  "ALG",
-                        "startsAt":  "2026-06-22T18:00:00Z",
+                        "startsAt":  "2026-06-23T03:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -763,7 +763,7 @@
                         "matchNumber":  58,
                         "homeTeamCode":  "ARG",
                         "awayTeamCode":  "AUT",
-                        "startsAt":  "2026-06-22T21:00:00Z",
+                        "startsAt":  "2026-06-22T17:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -772,7 +772,7 @@
                         "matchNumber":  59,
                         "homeTeamCode":  "JOR",
                         "awayTeamCode":  "ARG",
-                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "startsAt":  "2026-06-28T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -781,7 +781,7 @@
                         "matchNumber":  60,
                         "homeTeamCode":  "ALG",
                         "awayTeamCode":  "AUT",
-                        "startsAt":  "2026-06-27T21:00:00Z",
+                        "startsAt":  "2026-06-28T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -790,7 +790,7 @@
                         "matchNumber":  61,
                         "homeTeamCode":  "POR",
                         "awayTeamCode":  "COD",
-                        "startsAt":  "2026-06-17T18:00:00Z",
+                        "startsAt":  "2026-06-17T17:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -799,7 +799,7 @@
                         "matchNumber":  62,
                         "homeTeamCode":  "UZB",
                         "awayTeamCode":  "COL",
-                        "startsAt":  "2026-06-17T21:00:00Z",
+                        "startsAt":  "2026-06-18T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -808,7 +808,7 @@
                         "matchNumber":  63,
                         "homeTeamCode":  "COL",
                         "awayTeamCode":  "COD",
-                        "startsAt":  "2026-06-23T18:00:00Z",
+                        "startsAt":  "2026-06-24T02:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -817,7 +817,7 @@
                         "matchNumber":  64,
                         "homeTeamCode":  "POR",
                         "awayTeamCode":  "UZB",
-                        "startsAt":  "2026-06-23T21:00:00Z",
+                        "startsAt":  "2026-06-23T17:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -826,7 +826,7 @@
                         "matchNumber":  65,
                         "homeTeamCode":  "COL",
                         "awayTeamCode":  "POR",
-                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "startsAt":  "2026-06-27T23:30:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -835,7 +835,7 @@
                         "matchNumber":  66,
                         "homeTeamCode":  "COD",
                         "awayTeamCode":  "UZB",
-                        "startsAt":  "2026-06-27T21:00:00Z",
+                        "startsAt":  "2026-06-27T23:30:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -844,7 +844,7 @@
                         "matchNumber":  67,
                         "homeTeamCode":  "ENG",
                         "awayTeamCode":  "CRO",
-                        "startsAt":  "2026-06-17T18:00:00Z",
+                        "startsAt":  "2026-06-17T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -853,7 +853,7 @@
                         "matchNumber":  68,
                         "homeTeamCode":  "GHA",
                         "awayTeamCode":  "PAN",
-                        "startsAt":  "2026-06-17T21:00:00Z",
+                        "startsAt":  "2026-06-17T23:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -862,7 +862,7 @@
                         "matchNumber":  69,
                         "homeTeamCode":  "PAN",
                         "awayTeamCode":  "CRO",
-                        "startsAt":  "2026-06-23T18:00:00Z",
+                        "startsAt":  "2026-06-23T23:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -871,7 +871,7 @@
                         "matchNumber":  70,
                         "homeTeamCode":  "ENG",
                         "awayTeamCode":  "GHA",
-                        "startsAt":  "2026-06-23T21:00:00Z",
+                        "startsAt":  "2026-06-23T20:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },
@@ -880,7 +880,7 @@
                         "matchNumber":  71,
                         "homeTeamCode":  "PAN",
                         "awayTeamCode":  "ENG",
-                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "startsAt":  "2026-06-27T21:00:00Z",
                         "status":  "SCHEDULED",
                         "venue":  null
                     },

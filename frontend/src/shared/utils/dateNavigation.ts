@@ -23,6 +23,13 @@ const DISPLAY_DATE_FORMATTER = new Intl.DateTimeFormat("pt-BR", {
   year: "numeric",
 });
 
+const LONG_DATE_FORMATTER = new Intl.DateTimeFormat("pt-BR", {
+  timeZone: "America/Sao_Paulo",
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+
 export function getDateKey(value: string | Date) {
   return DATE_KEY_FORMATTER.format(value instanceof Date ? value : new Date(value));
 }
@@ -37,6 +44,12 @@ export function formatDateLabel(dateKey: string) {
   }
 
   return DISPLAY_DATE_FORMATTER.format(localDate);
+}
+
+export function formatLongDateLabel(dateKey: string) {
+  const [year, month, day] = dateKey.split("-");
+  const localDate = new Date(`${year}-${month}-${day}T12:00:00-03:00`);
+  return LONG_DATE_FORMATTER.format(localDate);
 }
 
 export function groupItemsByDate<T extends DatedItem>(items: T[]): DateGroup<T>[] {

@@ -10,7 +10,7 @@ import { getRanking } from "../services/rankingService";
 const DANGER_CUTOFF_POSITION = 17;
 
 function formatPlace(position: number) {
-  return `${position}o lugar`;
+  return `${position}º lugar`;
 }
 
 function formatFinishedMatchesText(matches: Match[]) {
@@ -103,24 +103,14 @@ interface RankingCardProps {
 }
 
 function RankingCard({ entry }: RankingCardProps) {
-  const isDanger = entry.position >= DANGER_CUTOFF_POSITION;
-
   return (
     <Link to={`/participants/${entry.participantId}`} className={rankingCardClassName(entry.position)}>
-      {isDanger ? (
-        <div className="absolute right-3 top-[-9px] rounded-lg border-[2px] border-[#6a0f0f] bg-[#9a1f1f] px-1.5 py-[1px] text-[9px] font-black uppercase tracking-[0.05em] text-[#ffe4e4]">
-          Z4
-        </div>
-      ) : null}
-
       <div className={rankingBadgeClassName(entry.position)}>{entry.position}</div>
 
       <div className="min-w-0 flex-1">
         <div className={rankingPlaceClassName(entry.position)}>{formatPlace(entry.position)}</div>
         <div className="truncate text-[14px] font-black leading-[1.2] text-[#1a1a1a]">{entry.participantName}</div>
-        <div className="mt-0.5 text-[11px] font-bold text-black/40">
-          {entry.exactScoreHits} exatos · {entry.resultHits} acertos
-        </div>
+        <div className="mt-0.5 text-[11px] font-bold text-black/40">{entry.exactScoreHits} exatos, {entry.resultHits} corretos</div>
       </div>
 
       <div className="shrink-0 text-right">

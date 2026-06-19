@@ -13,7 +13,7 @@ const statusClassMap: Record<MatchStatus, string> = {
 
 export function StatusBadge({ status }: StatusBadgeProps) {
   return (
-    <span className={`inline-flex rounded-xl border-[2px] px-2 py-1 text-[10px] font-black ${statusClassMap[status]}`}>
+    <span className={`inline-flex rounded-lg border-[2px] px-2 py-1 text-[9px] font-black uppercase tracking-[0.04em] ${statusClassMap[status]}`}>
       {formatMatchStatus(status)}
     </span>
   );

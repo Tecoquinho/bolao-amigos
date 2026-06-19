@@ -17,6 +17,7 @@ Estado atual em 2026-06-19:
 - Backend preparado para Render Free com `PORT`, CORS e blueprint `render.yaml`
 - Deploy do backend no Render ajustado para Docker por compatibilidade com a documentacao atual do Render
 - Frontend preparado para consumir `VITE_API_BASE_URL` no Vercel
+- Correcao dos horarios oficiais da fase de grupos preparada no seed e em migration Flyway
 
 ## Arquitetura atual
 
@@ -232,6 +233,7 @@ Objetivo:
 - Consulta de jogos com filtros implementada
 - Tratamento basico de erros implementado
 - Script operacional `backend/update-known-results.ps1` implementado para aplicar 28 resultados oficiais conhecidos da fase de grupos via `PATCH /api/matches/{matchId}/result`
+- Migration `V3__correct_group_stage_start_times.sql` adicionada para alinhar `matches.starts_at` com a grade oficial da fase de grupos
 
 ### Frontend
 
@@ -258,6 +260,10 @@ Objetivo:
 - Resumo de pontos do dia adicionado no detalhe do participante
 - Cards de palpites do participante ajustados para destacar mais o palpite e exibir o resultado oficial diretamente no placar dos jogos encerrados
 - Navegacao de volta no detalhe do participante refinada com botao mais visivel e melhor area de toque
+- Tela Jogos polida com header no mesmo nivel visual do Ranking e resumo contextual da data selecionada
+- Topo do participante consolidado em um bloco unico com posicao, pontos, acertos exatos e acertos de resultado
+- Limpeza visual aplicada no ranking com remocao do badge Z4 e maior consistencia entre Jogos, Ranking e Participante
+- Cards de jogos e palpites refinados para reforcar o placar como foco principal, com nomes de times mais secundarios e sem overflow horizontal
 - Build de producao executado com sucesso via `npm run build`
 
 ### Testes e validacao
