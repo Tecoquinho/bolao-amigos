@@ -16,7 +16,7 @@ export function MatchCard({ match }: MatchCardProps) {
         <div className="min-w-0 text-center">
           {isFinished ? (
             <div className="space-y-1">
-              <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 overflow-hidden whitespace-nowrap text-[18px] font-black leading-tight text-ink">
+              <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 overflow-hidden whitespace-nowrap text-[15px] font-black leading-tight text-ink">
                 <TeamLabel
                   name={match.homeTeamName}
                   fifaCode={match.homeTeamFifaCode}
@@ -24,10 +24,10 @@ export function MatchCard({ match }: MatchCardProps) {
                   flagPlacement="end"
                   justify="end"
                 />
-                <div className="flex items-center justify-center whitespace-nowrap">
-                  <span className="px-1 text-[22px] text-ink">{match.homeScore}</span>
-                  <span className="text-[22px] text-ink/55">x</span>
-                  <span className="px-1 text-[22px] text-ink">{match.awayScore}</span>
+                <div className="flex items-center justify-center whitespace-nowrap text-[15px] font-black">
+                  <span className="px-1.5 text-ink">{match.homeScore}</span>
+                  <span className="text-ink/55">x</span>
+                  <span className="px-1.5 text-ink">{match.awayScore}</span>
                 </div>
                 <TeamLabel
                   name={match.awayTeamName}

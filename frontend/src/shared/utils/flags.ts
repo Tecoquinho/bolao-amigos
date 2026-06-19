@@ -118,6 +118,7 @@ const friendlyTeamNameMap: Record<string, string> = {
   "Arabia Saudita": "Arábia Saud.",
   "Bosnia e Herzegovina": "BiH",
   "Coreia do Sul": "Coreia Sul",
+  "Estados Unidos": "Estados Unid.",
   "Nova Zelandia": "N. Zelândia",
   "Republica Democratica do Congo": "RD Congo",
   "Republica Tcheca": "Tchéquia",
