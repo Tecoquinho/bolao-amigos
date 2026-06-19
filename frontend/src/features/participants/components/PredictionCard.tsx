@@ -27,7 +27,7 @@ export function PredictionCard({ prediction }: PredictionCardProps) {
                 flagPlacement="end"
                 justify="end"
               />
-              <div className="flex items-center justify-center whitespace-nowrap rounded-full border-2 border-[#1a3a2f] bg-white px-2 py-1 text-[18px] font-black leading-none shadow-[2px_2px_0_#1a3a2f]">
+              <div className="flex items-center justify-center whitespace-nowrap text-[18px] font-black leading-none text-ink">
                 <span className="px-1.5 text-ink">{prediction.officialHomeScore}</span>
                 <span className="text-ink/55">x</span>
                 <span className="px-1.5 text-ink">{prediction.officialAwayScore}</span>
@@ -61,22 +61,15 @@ export function PredictionCard({ prediction }: PredictionCardProps) {
           )}
           <p className="mt-1 text-center text-xs font-bold text-ink/60">{formatTime(prediction.startsAt)}</p>
         </div>
-        <div className="flex items-start justify-between gap-3">
-          <div className="space-y-2 text-sm">
-            <div
-              className={`rounded-xl border px-3 py-2 ${
-                isFinished
-                  ? "border-[#1a3a2f] bg-white shadow-[2px_2px_0_#1a3a2f]"
-                  : "border-black/10 bg-[#f7f5ef]"
-              }`}
-            >
-              <p className="text-[10px] font-black uppercase tracking-[0.08em] text-ink/55">
-                {isFinished ? "Seu palpite" : "Palpite"}
-              </p>
-              <p className={`mt-1 font-black text-ink ${isFinished ? "text-lg leading-none" : "text-base"}`}>
-                {prediction.predictedHomeScore} x {prediction.predictedAwayScore}
-              </p>
-            </div>
+        <div className="space-y-2 text-center text-sm">
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.08em] text-ink/55">Palpite</p>
+            <p className={`mt-1 font-black text-ink ${isFinished ? "text-[22px] leading-none" : "text-lg"}`}>
+              {prediction.predictedHomeScore} x {prediction.predictedAwayScore}
+            </p>
+          </div>
+          <div className="flex items-start justify-between gap-3">
+            <div className="space-y-2 text-left text-sm">
             {!isFinished ? (
               <p className="text-ink/65">
                 <span className="font-semibold">Resultado:</span> {formatScore(prediction.officialHomeScore, prediction.officialAwayScore)}
@@ -87,8 +80,9 @@ export function PredictionCard({ prediction }: PredictionCardProps) {
                 +{prediction.pointsAwarded} pts
               </p>
             ) : null}
+            </div>
+            <StatusBadge status={prediction.matchStatus} />
           </div>
-          <StatusBadge status={prediction.matchStatus} />
         </div>
       </div>
     </article>

@@ -77,14 +77,11 @@ export function ParticipantDetailPage() {
       <header className="px-1">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 rounded-full border-[2px] border-[#1a3a2f] bg-white px-3 py-2 text-sm font-black text-[#1a3a2f] shadow-[2px_2px_0_#1a3a2f] transition-transform duration-150 active:translate-x-[1px] active:translate-y-[1px] active:shadow-[1px_1px_0_#1a3a2f]"
+          className="inline-flex items-center gap-2 text-sm font-black text-[#1a3a2f]"
           aria-label="Voltar para o ranking"
         >
-          <span
-            aria-hidden="true"
-            className="flex h-6 w-6 items-center justify-center rounded-full border-[2px] border-[#1a3a2f] bg-[#f0ede4] text-base leading-none"
-          >
-            ←
+          <span aria-hidden="true" className="text-base leading-none">
+            {"<-"}
           </span>
           <span className="truncate">{state.participant?.name ?? "Participante"}</span>
         </Link>
