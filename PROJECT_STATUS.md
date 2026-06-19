@@ -256,6 +256,8 @@ Objetivo:
 - Header do ranking reforcado com subtitulo "Copa do Mundo 2026" e cards de jogos finalizados com placar em maior destaque
 - Fallback de bandeiras ajustado no frontend para resolver nomes de times reais quando a API publicada nao envia `fifaCode` nem `flagUrl`
 - Resumo de pontos do dia adicionado no detalhe do participante
+- Cards de palpites do participante ajustados para destacar mais o palpite e exibir o resultado oficial diretamente no placar dos jogos encerrados
+- Navegacao de volta no detalhe do participante refinada com botao mais visivel e melhor area de toque
 - Build de producao executado com sucesso via `npm run build`
 
 ### Testes e validacao

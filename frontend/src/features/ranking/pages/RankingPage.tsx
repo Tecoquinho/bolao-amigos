@@ -158,7 +158,7 @@ export function RankingPage() {
 
   return (
     <div className="space-y-3">
-      <header className="flex items-center gap-2 px-1 pt-1">
+      <header className="space-y-2 px-1 pt-1">
         <div className="min-w-0">
           <h1 className="whitespace-nowrap text-[22px] font-black tracking-[-0.4px] text-[#1a3a2f]">
             {"Bol\u00E3o dos Amigos da Carlos"}
@@ -166,7 +166,7 @@ export function RankingPage() {
           <p className="text-[12px] font-extrabold uppercase tracking-[0.06em] text-[#7a9e8e]">Copa do Mundo 2026</p>
         </div>
         {!isLoading && !error ? (
-          <div className="ml-auto whitespace-nowrap rounded-full border-[2px] border-[#1a3a2f] bg-[#205347] px-2 py-1 text-[10px] font-black text-[#c8e8dc]">
+          <div className="inline-flex whitespace-nowrap rounded-full border-[2px] border-[#1a3a2f] bg-[#205347] px-2 py-1 text-[10px] font-black text-[#c8e8dc]">
             {finishedMatchesText}
           </div>
         ) : null}
