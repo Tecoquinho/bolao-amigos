@@ -15,6 +15,7 @@ Estado atual em 2026-06-19:
 - Frontend MVP publico implementado
 - Build do frontend validado com sucesso
 - Backend preparado para Render Free com `PORT`, CORS e blueprint `render.yaml`
+- Deploy do backend no Render ajustado para Docker por compatibilidade com a documentacao atual do Render
 - Frontend preparado para consumir `VITE_API_BASE_URL` no Vercel
 
 ## Arquitetura atual
