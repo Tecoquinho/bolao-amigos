@@ -64,7 +64,7 @@ export function PredictionCard({ prediction }: PredictionCardProps) {
         <div className="space-y-2 text-center text-sm">
           <div>
             <p className="text-[10px] font-black uppercase tracking-[0.08em] text-ink/55">Palpite</p>
-            <p className={`mt-1 font-black text-ink ${isFinished ? "text-[22px] leading-none" : "text-lg"}`}>
+            <p className={`mt-1 font-black text-ink ${isFinished ? "text-[19px] leading-none" : "text-[17px]"}`}>
               {prediction.predictedHomeScore} x {prediction.predictedAwayScore}
             </p>
           </div>

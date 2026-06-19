@@ -77,15 +77,17 @@ export function ParticipantDetailPage() {
       <header className="px-1">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-sm font-black text-[#1a3a2f]"
+          className="inline-flex max-w-full items-center gap-2 rounded-2xl border-[2px] border-[#1a3a2f] bg-white px-3 py-2 text-left text-[#1a3a2f] shadow-[2px_2px_0_#1a3a2f]"
           aria-label="Voltar para o ranking"
         >
           <span aria-hidden="true" className="text-base leading-none">
             {"<-"}
           </span>
-          <span className="truncate">{state.participant?.name ?? "Participante"}</span>
+          <span className="min-w-0">
+            <span className="block truncate text-sm font-black">{state.participant?.name ?? "Participante"}</span>
+            <span className="block truncate text-[11px] font-semibold text-ink/65">{rankingText}</span>
+          </span>
         </Link>
-        <p className="mt-3 text-sm font-medium text-ink/65">{rankingText}</p>
       </header>
 
       {!hasPredictions ? (
