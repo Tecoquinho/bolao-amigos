@@ -1,0 +1,900 @@
+{
+    "participants":  [
+
+                     ],
+    "teams":  [
+                  {
+                      "name":  "México",
+                      "fifaCode":  "MEX",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "África do Sul",
+                      "fifaCode":  "RSA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Coreia do Sul",
+                      "fifaCode":  "KOR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "República Tcheca",
+                      "fifaCode":  "CZE",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Canadá",
+                      "fifaCode":  "CAN",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Bósnia e Herzegovina",
+                      "fifaCode":  "BIH",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Catar",
+                      "fifaCode":  "QAT",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Suíça",
+                      "fifaCode":  "SUI",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Brasil",
+                      "fifaCode":  "BRA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Marrocos",
+                      "fifaCode":  "MAR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Haiti",
+                      "fifaCode":  "HTI",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Escócia",
+                      "fifaCode":  "SCO",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Estados Unidos",
+                      "fifaCode":  "USA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Paraguai",
+                      "fifaCode":  "PAR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Austrália",
+                      "fifaCode":  "AUS",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Turquia",
+                      "fifaCode":  "TUR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Alemanha",
+                      "fifaCode":  "GER",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Curaçao",
+                      "fifaCode":  "CUW",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Costa do Marfim",
+                      "fifaCode":  "CIV",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Equador",
+                      "fifaCode":  "ECU",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Países Baixos",
+                      "fifaCode":  "NED",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Japão",
+                      "fifaCode":  "JPN",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Suécia",
+                      "fifaCode":  "SWE",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Tunísia",
+                      "fifaCode":  "TUN",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Bélgica",
+                      "fifaCode":  "BEL",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Egito",
+                      "fifaCode":  "EGY",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Irã",
+                      "fifaCode":  "IRN",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Nova Zelândia",
+                      "fifaCode":  "NZL",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Espanha",
+                      "fifaCode":  "ESP",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Cabo Verde",
+                      "fifaCode":  "CPV",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Arábia Saudita",
+                      "fifaCode":  "KSA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Uruguai",
+                      "fifaCode":  "URU",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "França",
+                      "fifaCode":  "FRA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Senegal",
+                      "fifaCode":  "SEN",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Iraque",
+                      "fifaCode":  "IRQ",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Noruega",
+                      "fifaCode":  "NOR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Argentina",
+                      "fifaCode":  "ARG",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Argélia",
+                      "fifaCode":  "ALG",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Áustria",
+                      "fifaCode":  "AUT",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Jordânia",
+                      "fifaCode":  "JOR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Portugal",
+                      "fifaCode":  "POR",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "República Democrática do Congo",
+                      "fifaCode":  "COD",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Uzbequistão",
+                      "fifaCode":  "UZB",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Colômbia",
+                      "fifaCode":  "COL",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Inglaterra",
+                      "fifaCode":  "ENG",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Croácia",
+                      "fifaCode":  "CRO",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Gana",
+                      "fifaCode":  "GHA",
+                      "flagUrl":  null
+                  },
+                  {
+                      "name":  "Panamá",
+                      "fifaCode":  "PAN",
+                      "flagUrl":  null
+                  }
+              ],
+    "matches":  [
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  1,
+                        "homeTeamCode":  "MEX",
+                        "awayTeamCode":  "RSA",
+                        "startsAt":  "2026-06-11T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  2,
+                        "homeTeamCode":  "KOR",
+                        "awayTeamCode":  "CZE",
+                        "startsAt":  "2026-06-11T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  3,
+                        "homeTeamCode":  "CZE",
+                        "awayTeamCode":  "RSA",
+                        "startsAt":  "2026-06-18T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  4,
+                        "homeTeamCode":  "MEX",
+                        "awayTeamCode":  "KOR",
+                        "startsAt":  "2026-06-18T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  5,
+                        "homeTeamCode":  "CZE",
+                        "awayTeamCode":  "MEX",
+                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  6,
+                        "homeTeamCode":  "RSA",
+                        "awayTeamCode":  "KOR",
+                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  7,
+                        "homeTeamCode":  "CAN",
+                        "awayTeamCode":  "BIH",
+                        "startsAt":  "2026-06-12T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  8,
+                        "homeTeamCode":  "QAT",
+                        "awayTeamCode":  "SUI",
+                        "startsAt":  "2026-06-12T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  9,
+                        "homeTeamCode":  "SUI",
+                        "awayTeamCode":  "BIH",
+                        "startsAt":  "2026-06-18T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  10,
+                        "homeTeamCode":  "CAN",
+                        "awayTeamCode":  "QAT",
+                        "startsAt":  "2026-06-18T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  11,
+                        "homeTeamCode":  "SUI",
+                        "awayTeamCode":  "CAN",
+                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  12,
+                        "homeTeamCode":  "BIH",
+                        "awayTeamCode":  "QAT",
+                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  13,
+                        "homeTeamCode":  "BRA",
+                        "awayTeamCode":  "MAR",
+                        "startsAt":  "2026-06-13T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  14,
+                        "homeTeamCode":  "HTI",
+                        "awayTeamCode":  "SCO",
+                        "startsAt":  "2026-06-13T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  15,
+                        "homeTeamCode":  "SCO",
+                        "awayTeamCode":  "MAR",
+                        "startsAt":  "2026-06-19T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  16,
+                        "homeTeamCode":  "BRA",
+                        "awayTeamCode":  "HTI",
+                        "startsAt":  "2026-06-19T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  17,
+                        "homeTeamCode":  "SCO",
+                        "awayTeamCode":  "BRA",
+                        "startsAt":  "2026-06-24T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  18,
+                        "homeTeamCode":  "MAR",
+                        "awayTeamCode":  "HTI",
+                        "startsAt":  "2026-06-24T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  19,
+                        "homeTeamCode":  "USA",
+                        "awayTeamCode":  "PAR",
+                        "startsAt":  "2026-06-12T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  20,
+                        "homeTeamCode":  "AUS",
+                        "awayTeamCode":  "TUR",
+                        "startsAt":  "2026-06-12T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  21,
+                        "homeTeamCode":  "TUR",
+                        "awayTeamCode":  "PAR",
+                        "startsAt":  "2026-06-19T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  22,
+                        "homeTeamCode":  "USA",
+                        "awayTeamCode":  "AUS",
+                        "startsAt":  "2026-06-19T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  23,
+                        "homeTeamCode":  "TUR",
+                        "awayTeamCode":  "USA",
+                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  24,
+                        "homeTeamCode":  "PAR",
+                        "awayTeamCode":  "AUS",
+                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  25,
+                        "homeTeamCode":  "GER",
+                        "awayTeamCode":  "CUW",
+                        "startsAt":  "2026-06-14T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  26,
+                        "homeTeamCode":  "CIV",
+                        "awayTeamCode":  "ECU",
+                        "startsAt":  "2026-06-14T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  27,
+                        "homeTeamCode":  "ECU",
+                        "awayTeamCode":  "CUW",
+                        "startsAt":  "2026-06-20T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  28,
+                        "homeTeamCode":  "GER",
+                        "awayTeamCode":  "CIV",
+                        "startsAt":  "2026-06-20T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  29,
+                        "homeTeamCode":  "ECU",
+                        "awayTeamCode":  "GER",
+                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  30,
+                        "homeTeamCode":  "CUW",
+                        "awayTeamCode":  "CIV",
+                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  31,
+                        "homeTeamCode":  "NED",
+                        "awayTeamCode":  "JPN",
+                        "startsAt":  "2026-06-14T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  32,
+                        "homeTeamCode":  "SWE",
+                        "awayTeamCode":  "TUN",
+                        "startsAt":  "2026-06-14T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  33,
+                        "homeTeamCode":  "TUN",
+                        "awayTeamCode":  "JPN",
+                        "startsAt":  "2026-06-20T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  34,
+                        "homeTeamCode":  "NED",
+                        "awayTeamCode":  "SWE",
+                        "startsAt":  "2026-06-20T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  35,
+                        "homeTeamCode":  "TUN",
+                        "awayTeamCode":  "NED",
+                        "startsAt":  "2026-06-25T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  36,
+                        "homeTeamCode":  "JPN",
+                        "awayTeamCode":  "SWE",
+                        "startsAt":  "2026-06-25T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  37,
+                        "homeTeamCode":  "BEL",
+                        "awayTeamCode":  "EGY",
+                        "startsAt":  "2026-06-15T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  38,
+                        "homeTeamCode":  "IRN",
+                        "awayTeamCode":  "NZL",
+                        "startsAt":  "2026-06-15T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  39,
+                        "homeTeamCode":  "NZL",
+                        "awayTeamCode":  "EGY",
+                        "startsAt":  "2026-06-21T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  40,
+                        "homeTeamCode":  "BEL",
+                        "awayTeamCode":  "IRN",
+                        "startsAt":  "2026-06-21T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  41,
+                        "homeTeamCode":  "NZL",
+                        "awayTeamCode":  "BEL",
+                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  42,
+                        "homeTeamCode":  "EGY",
+                        "awayTeamCode":  "IRN",
+                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  43,
+                        "homeTeamCode":  "ESP",
+                        "awayTeamCode":  "CPV",
+                        "startsAt":  "2026-06-15T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  44,
+                        "homeTeamCode":  "KSA",
+                        "awayTeamCode":  "URU",
+                        "startsAt":  "2026-06-15T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  45,
+                        "homeTeamCode":  "URU",
+                        "awayTeamCode":  "CPV",
+                        "startsAt":  "2026-06-21T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  46,
+                        "homeTeamCode":  "ESP",
+                        "awayTeamCode":  "KSA",
+                        "startsAt":  "2026-06-21T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  47,
+                        "homeTeamCode":  "URU",
+                        "awayTeamCode":  "ESP",
+                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  48,
+                        "homeTeamCode":  "CPV",
+                        "awayTeamCode":  "KSA",
+                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  49,
+                        "homeTeamCode":  "FRA",
+                        "awayTeamCode":  "SEN",
+                        "startsAt":  "2026-06-16T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  50,
+                        "homeTeamCode":  "IRQ",
+                        "awayTeamCode":  "NOR",
+                        "startsAt":  "2026-06-16T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  51,
+                        "homeTeamCode":  "NOR",
+                        "awayTeamCode":  "SEN",
+                        "startsAt":  "2026-06-22T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  52,
+                        "homeTeamCode":  "FRA",
+                        "awayTeamCode":  "IRQ",
+                        "startsAt":  "2026-06-22T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  53,
+                        "homeTeamCode":  "NOR",
+                        "awayTeamCode":  "FRA",
+                        "startsAt":  "2026-06-26T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  54,
+                        "homeTeamCode":  "SEN",
+                        "awayTeamCode":  "IRQ",
+                        "startsAt":  "2026-06-26T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  55,
+                        "homeTeamCode":  "ARG",
+                        "awayTeamCode":  "ALG",
+                        "startsAt":  "2026-06-16T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  56,
+                        "homeTeamCode":  "AUT",
+                        "awayTeamCode":  "JOR",
+                        "startsAt":  "2026-06-16T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  57,
+                        "homeTeamCode":  "JOR",
+                        "awayTeamCode":  "ALG",
+                        "startsAt":  "2026-06-22T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  58,
+                        "homeTeamCode":  "ARG",
+                        "awayTeamCode":  "AUT",
+                        "startsAt":  "2026-06-22T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  59,
+                        "homeTeamCode":  "JOR",
+                        "awayTeamCode":  "ARG",
+                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  60,
+                        "homeTeamCode":  "ALG",
+                        "awayTeamCode":  "AUT",
+                        "startsAt":  "2026-06-27T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  61,
+                        "homeTeamCode":  "POR",
+                        "awayTeamCode":  "COD",
+                        "startsAt":  "2026-06-17T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  62,
+                        "homeTeamCode":  "UZB",
+                        "awayTeamCode":  "COL",
+                        "startsAt":  "2026-06-17T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  63,
+                        "homeTeamCode":  "COL",
+                        "awayTeamCode":  "COD",
+                        "startsAt":  "2026-06-23T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  64,
+                        "homeTeamCode":  "POR",
+                        "awayTeamCode":  "UZB",
+                        "startsAt":  "2026-06-23T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  65,
+                        "homeTeamCode":  "COL",
+                        "awayTeamCode":  "POR",
+                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  66,
+                        "homeTeamCode":  "COD",
+                        "awayTeamCode":  "UZB",
+                        "startsAt":  "2026-06-27T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  67,
+                        "homeTeamCode":  "ENG",
+                        "awayTeamCode":  "CRO",
+                        "startsAt":  "2026-06-17T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  68,
+                        "homeTeamCode":  "GHA",
+                        "awayTeamCode":  "PAN",
+                        "startsAt":  "2026-06-17T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  69,
+                        "homeTeamCode":  "PAN",
+                        "awayTeamCode":  "CRO",
+                        "startsAt":  "2026-06-23T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  70,
+                        "homeTeamCode":  "ENG",
+                        "awayTeamCode":  "GHA",
+                        "startsAt":  "2026-06-23T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  71,
+                        "homeTeamCode":  "PAN",
+                        "awayTeamCode":  "ENG",
+                        "startsAt":  "2026-06-27T18:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    },
+                    {
+                        "phase":  "GROUP_STAGE",
+                        "matchNumber":  72,
+                        "homeTeamCode":  "CRO",
+                        "awayTeamCode":  "GHA",
+                        "startsAt":  "2026-06-27T21:00:00Z",
+                        "status":  "SCHEDULED",
+                        "venue":  null
+                    }
+                ],
+    "predictions":  [
+
+                    ]
+}

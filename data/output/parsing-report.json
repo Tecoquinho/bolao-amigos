@@ -1,0 +1,180 @@
+{
+  "generatedAt" : "2026-06-19T08:16:16.7381113Z",
+  "catalogMatches" : 72,
+  "pdfsDiscovered" : 20,
+  "pdfsSucceeded" : 18,
+  "pdfsSucceededWithBlockedMatch" : 2,
+  "pdfsFailed" : 0,
+  "participantsIncluded" : 20,
+  "predictionsIncluded" : 1438,
+  "blockedMatches" : 2,
+  "files" : [ {
+    "fileName" : "BOLÃO ARTHUR.pdf",
+    "participantName" : "ARTHUR",
+    "status" : "SUCCESS_WITH_BLOCKED_MATCH",
+    "expectedMatches" : 72,
+    "validPredictions" : 71,
+    "blockedMatches" : [ {
+      "matchNumber" : 1,
+      "confrontation" : "MÉXICO x ÁFRICA DO SUL",
+      "reason" : "BLOCKED_OR_LATE_ENTRY"
+    } ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO BRUNO.pdf",
+    "participantName" : "BRUNO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO DANILLO.pdf",
+    "participantName" : "DANILLO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO FILLIPE.pdf",
+    "participantName" : "FILLIPE MARQUES",
+    "status" : "SUCCESS_WITH_BLOCKED_MATCH",
+    "expectedMatches" : 72,
+    "validPredictions" : 71,
+    "blockedMatches" : [ {
+      "matchNumber" : 1,
+      "confrontation" : "MÉXICO x ÁFRICA DO SUL",
+      "reason" : "BLOCKED_OR_LATE_ENTRY"
+    } ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO GILSON.pdf",
+    "participantName" : "GILSON",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO GUSTAVO.pdf",
+    "participantName" : "GUSTAVO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO IURI.pdf",
+    "participantName" : "IURI",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO MANEL 1.pdf",
+    "participantName" : "MANEL (jg 1)",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO MANEL 2.pdf",
+    "participantName" : "MANEL (jg 2)",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO MATHEUS.pdf",
+    "participantName" : "MATHEUS",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO MAURO.pdf",
+    "participantName" : "MAURO MORSCH",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO MAURÍCIO.pdf",
+    "participantName" : "MAURÍCIO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO PEDRINHO.pdf",
+    "participantName" : "PEDRINHO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO RAFAEL (adega).pdf",
+    "participantName" : "RAFAEL (adega)",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO RODRIGO DIGÃO.pdf",
+    "participantName" : "RODRIGO DIGÃO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO RODRIGO VASCO.pdf",
+    "participantName" : "RODRIGO VASCO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO SANDRO.pdf",
+    "participantName" : "SANDRO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO TIJOLO.pdf",
+    "participantName" : "TIJOLO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO VIANNA.pdf",
+    "participantName" : "VIANNA",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  }, {
+    "fileName" : "BOLÃO VITINHO.pdf",
+    "participantName" : "VITINHO",
+    "status" : "SUCCESS",
+    "expectedMatches" : 72,
+    "validPredictions" : 72,
+    "blockedMatches" : [ ],
+    "errors" : [ ]
+  } ]
+}

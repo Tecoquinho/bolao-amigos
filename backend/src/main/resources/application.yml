@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: bolao-backend
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/bolao_copa}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+  profiles:
+    default: default
+
+server:
+  port: 8080
