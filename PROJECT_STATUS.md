@@ -14,6 +14,8 @@ Estado atual em 2026-06-19:
 - Testes do backend passando
 - Frontend MVP publico implementado
 - Build do frontend validado com sucesso
+- Backend preparado para Render Free com `PORT`, CORS e blueprint `render.yaml`
+- Frontend preparado para consumir `VITE_API_BASE_URL` no Vercel
 
 ## Arquitetura atual
 
@@ -276,6 +278,7 @@ Objetivo:
 - Adicionar testes do frontend
 - Refinar UX de navegacao conforme uso real em celular
 - Adicionar configuracao explicita de ambiente para URL da API em deploy
+- Publicar o backend no Render Free e o frontend no Vercel com Supabase como banco
 
 ### Melhorias tecnicas
 
