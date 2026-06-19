@@ -6,14 +6,14 @@ interface StatusBadgeProps {
 }
 
 const statusClassMap: Record<MatchStatus, string> = {
-  SCHEDULED: "bg-spruce/10 text-spruce",
-  LIVE: "bg-coral/12 text-coral",
-  FINISHED: "bg-moss/20 text-pine",
+  SCHEDULED: "border-[#1a3a2f] bg-[#f0ede4] text-[#205347]",
+  LIVE: "border-[#9a1f1f] bg-[#ffe4e4] text-[#9a1f1f]",
+  FINISHED: "border-[#1a3a2f] bg-[#d9eadf] text-[#1a3a2f]",
 };
 
 export function StatusBadge({ status }: StatusBadgeProps) {
   return (
-    <span className={`inline-flex rounded-full px-2.5 py-1 text-[11px] font-semibold ${statusClassMap[status]}`}>
+    <span className={`inline-flex rounded-full border-[2px] px-2 py-1 text-[10px] font-black ${statusClassMap[status]}`}>
       {formatMatchStatus(status)}
     </span>
   );

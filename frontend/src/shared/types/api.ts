@@ -31,7 +31,11 @@ export interface ParticipantPrediction {
   startsAt: string;
   matchStatus: MatchStatus;
   homeTeamName: string;
+  homeTeamFifaCode: string | null;
+  homeTeamFlagUrl: string | null;
   awayTeamName: string;
+  awayTeamFifaCode: string | null;
+  awayTeamFlagUrl: string | null;
   predictedHomeScore: number;
   predictedAwayScore: number;
   officialHomeScore: number | null;
@@ -45,8 +49,12 @@ export interface Match {
   matchNumber: number;
   homeTeamId: number;
   homeTeamName: string;
+  homeTeamFifaCode: string | null;
+  homeTeamFlagUrl: string | null;
   awayTeamId: number;
   awayTeamName: string;
+  awayTeamFifaCode: string | null;
+  awayTeamFlagUrl: string | null;
   startsAt: string;
   status: MatchStatus;
   venue: string | null;

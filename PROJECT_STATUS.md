@@ -249,6 +249,12 @@ Objetivo:
 - Navegacao entre ranking e detalhe do participante implementada
 - Mojibake corrigido nas telas publicas principais
 - Resumo de jogos finalizados exibido no topo do ranking
+- Ranking redesenhado no estilo compacto de referencia, com top 3 destacado e cards vermelhos suaves para o Z4
+- Bandeiras pequenas adicionadas aos cards de jogos e palpites com imagens reais via `flagUrl` ou fallback por `fifaCode`
+- Frontend alinhado ao visual compacto de referencia com fundo bege, fonte arredondada, bordas grossas e sombras duras
+- Ranking convertido para lista continua com top 3 destacado e Z4 em cards vermelhos suaves, sem separadores de secao
+- Header do ranking reforcado com subtitulo "Copa do Mundo 2026" e cards de jogos finalizados com placar em maior destaque
+- Fallback de bandeiras ajustado no frontend para resolver nomes de times reais quando a API publicada nao envia `fifaCode` nem `flagUrl`
 - Resumo de pontos do dia adicionado no detalhe do participante
 - Build de producao executado com sucesso via `npm run build`
 
