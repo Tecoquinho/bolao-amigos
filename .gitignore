@@ -9,3 +9,6 @@ backend/tmp-mini/
 *.log
 *.tsbuildinfo
 bolao_redesign_compact.html
+AGENTS.md
+PROJECT_STATUS.md
+RunProject.txt

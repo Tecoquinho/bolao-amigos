@@ -21,6 +21,16 @@ Nao e uma plataforma de apostas.
 Nao e um dashboard corporativo.
 Nao tem login, edicao de palpites nem area administrativa publica.
 
+## Principios do projeto
+
+- backend em `Java 21 + Spring Boot 3`
+- frontend em `React + TypeScript`
+- banco em `PostgreSQL`
+- simplicidade antes de overengineering
+- foco em leitura rapida no celular
+- regras de negocio importantes devem ser protegidas por testes
+- mudancas arquiteturais relevantes devem ser explicadas
+
 ## Stack
 
 ### Backend
@@ -73,16 +83,16 @@ Importante:
 
 ```text
 .
-├── backend
-│   ├── src/main/java
-│   ├── src/main/resources
-│   │   ├── db/migration
-│   │   └── import
-│   └── update-known-results.ps1
-├── frontend
-│   └── src
-├── data
-└── render.yaml
+|-- backend
+|   |-- src/main/java
+|   |-- src/main/resources
+|   |   |-- db/migration
+|   |   `-- import
+|   `-- update-known-results.ps1
+|-- frontend
+|   `-- src
+|-- data
+`-- render.yaml
 ```
 
 ## Funcionalidades principais
@@ -135,6 +145,10 @@ Rodando localmente:
 
 ```powershell
 cd backend
+
+$env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-21.0.11.10-hotspot'
+$env:Path="$env:JAVA_HOME\bin;" + $env:Path
+
 mvn spring-boot:run
 ```
 
@@ -254,6 +268,16 @@ Estado de referencia do projeto:
 - `1438 predictions`
 
 Os resultados oficiais sao carregados progressivamente ao longo da fase de grupos.
+
+Estado funcional atual:
+
+- ranking publico implementado
+- detalhe do participante implementado
+- tela de jogos implementada
+- seed canonico da fase de grupos implementado
+- script operacional para atualizacao de resultados implementado
+- backend pronto para Render
+- frontend pronto para Vercel
 
 ## Design do app
 
