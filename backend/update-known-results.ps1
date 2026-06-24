@@ -32,8 +32,12 @@ $confirmedResults = @(
     @{ MatchNumber = 56; HomeScore = 3; AwayScore = 1; Game = "Austria x Jordan" },
     @{ MatchNumber = 61; HomeScore = 1; AwayScore = 1; Game = "Portugal x DR Congo" },
     @{ MatchNumber = 62; HomeScore = 1; AwayScore = 3; Game = "Uzbekistan x Colombia" },
+    @{ MatchNumber = 63; HomeScore = 1; AwayScore = 0; Game = "Colombia x DR Congo" },
+    @{ MatchNumber = 64; HomeScore = 5; AwayScore = 0; Game = "Portugal x Uzbekistan" },
     @{ MatchNumber = 67; HomeScore = 4; AwayScore = 2; Game = "England x Croatia" },
-    @{ MatchNumber = 68; HomeScore = 1; AwayScore = 0; Game = "Ghana x Panama" }
+    @{ MatchNumber = 68; HomeScore = 1; AwayScore = 0; Game = "Ghana x Panama" },
+    @{ MatchNumber = 69; HomeScore = 0; AwayScore = 1; Game = "Panama x Croatia" },
+    @{ MatchNumber = 70; HomeScore = 0; AwayScore = 0; Game = "England x Ghana" }
 )
 
 Write-Host "Fetching matches from $BaseUrl ..."

@@ -5,6 +5,7 @@ import { ErrorState } from "../../../shared/components/ErrorState";
 import { EmptyState } from "../../../shared/components/EmptyState";
 import { DateStepper } from "../../../shared/components/DateStepper";
 import { groupItemsByDate, resolveInitialDateIndex } from "../../../shared/utils/dateNavigation";
+import { formatDate, formatScore } from "../../../shared/utils/format";
 import type { Participant, ParticipantPrediction, RankingEntry } from "../../../shared/types/api";
 import { getParticipantById, getParticipantPredictions } from "../services/participantService";
 import { PredictionCard } from "../components/PredictionCard";
@@ -23,6 +24,7 @@ export function ParticipantDetailPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [activeDateIndex, setActiveDateIndex] = useState(0);
+  const [isAuditOpen, setIsAuditOpen] = useState(false);
 
   async function loadParticipant() {
     if (!Number.isFinite(participantId)) {
@@ -67,7 +69,6 @@ export function ParticipantDetailPage() {
   const groupedPredictions = groupItemsByDate(state.predictions);
   const activeGroup = groupedPredictions[activeDateIndex];
   const hasPredictions = groupedPredictions.length > 0;
-  const activeDayPoints = activeGroup?.items.reduce((total, prediction) => total + prediction.pointsAwarded, 0) ?? 0;
   const rankingText = state.rankingEntry
     ? `${state.rankingEntry.position}o lugar - ${state.rankingEntry.totalPoints} pts`
     : "Sem posicao no ranking";
@@ -124,10 +125,14 @@ export function ParticipantDetailPage() {
             disablePrevious={activeDateIndex === 0}
             disableNext={activeDateIndex === groupedPredictions.length - 1}
           />
-          <div className="rounded-[22px] border-[2px] border-[#1a3a2f] bg-[#f7f3e8] px-4 py-3 text-center shadow-[2px_2px_0_#1a3a2f]">
-            <p className="text-[10px] font-black uppercase tracking-[0.12em] text-[#7a9e8e]">Recorte do dia</p>
-            <p className="mt-1 text-base font-black text-[#1a3a2f]">{activeDayPoints} pontos nesse dia</p>
-          </div>
+          <button
+            type="button"
+            onClick={() => setIsAuditOpen(true)}
+            className="w-full rounded-[22px] border-[2px] border-[#1a3a2f] bg-[#f7f3e8] px-4 py-3 text-center shadow-[2px_2px_0_#1a3a2f] transition-transform active:translate-y-[1px]"
+          >
+            <p className="text-[10px] font-black uppercase tracking-[0.12em] text-[#7a9e8e]">Auditoria</p>
+            <p className="mt-1 text-base font-black text-[#1a3a2f]">Auditoria de Pontos</p>
+          </button>
           <div className="space-y-3">
             {activeGroup.items.map((prediction) => (
               <PredictionCard key={prediction.predictionId} prediction={prediction} />
@@ -135,6 +140,68 @@ export function ParticipantDetailPage() {
           </div>
         </>
       )}
+
+      {isAuditOpen ? (
+        <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/45 px-3 py-4 sm:items-center">
+          <div className="max-h-[90vh] w-full max-w-4xl overflow-hidden rounded-[28px] border-[2.5px] border-[#1a3a2f] bg-[#f7f3e8] shadow-[4px_5px_0_#1a3a2f]">
+            <div className="flex items-start justify-between gap-4 border-b-[2px] border-[#1a3a2f] px-4 py-4">
+              <div className="min-w-0">
+                <p className="text-[11px] font-black uppercase tracking-[0.12em] text-[#7a9e8e]">Auditoria de Pontos</p>
+                <p className="mt-1 truncate text-lg font-black text-[#1a3a2f]">{state.participant?.name ?? "Participante"}</p>
+                <p className="text-xs font-semibold text-[#1a3a2f]/70">{rankingText}</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setIsAuditOpen(false)}
+                className="shrink-0 rounded-full border-[2px] border-[#1a3a2f] bg-white px-3 py-1 text-xs font-black text-[#1a3a2f]"
+              >
+                Fechar
+              </button>
+            </div>
+            <div className="max-h-[calc(90vh-88px)] overflow-auto px-3 py-3">
+              <div className="min-w-[720px] overflow-hidden rounded-[22px] border-[2px] border-[#1a3a2f] bg-white">
+                <table className="w-full table-fixed border-collapse">
+                  <thead className="bg-[#efe7d3]">
+                    <tr className="text-left text-[11px] font-black uppercase tracking-[0.08em] text-[#1a3a2f]">
+                      <th className="border-b-[2px] border-[#1a3a2f] px-3 py-3">Jogo</th>
+                      <th className="border-b-[2px] border-[#1a3a2f] px-3 py-3">Data</th>
+                      <th className="border-b-[2px] border-[#1a3a2f] px-3 py-3">Palpite</th>
+                      <th className="border-b-[2px] border-[#1a3a2f] px-3 py-3">Resultado final</th>
+                      <th className="border-b-[2px] border-[#1a3a2f] px-3 py-3">Pontos</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {state.predictions.map((prediction) => (
+                      <tr key={prediction.predictionId} className="align-top text-sm text-[#1a3a2f] odd:bg-[#fffaf0]">
+                        <td className="border-b border-black/10 px-3 py-3 font-semibold">
+                          <div>{prediction.homeTeamName} x {prediction.awayTeamName}</div>
+                          <div className="text-xs font-bold uppercase tracking-[0.05em] text-[#7a9e8e]">
+                            Jogo {prediction.matchNumber}
+                          </div>
+                        </td>
+                        <td className="border-b border-black/10 px-3 py-3 text-xs font-semibold">
+                          {formatDate(prediction.startsAt)}
+                        </td>
+                        <td className="border-b border-black/10 px-3 py-3 font-black">
+                          {prediction.predictedHomeScore} x {prediction.predictedAwayScore}
+                        </td>
+                        <td className="border-b border-black/10 px-3 py-3 font-semibold">
+                          {formatScore(prediction.officialHomeScore, prediction.officialAwayScore)}
+                        </td>
+                        <td className="border-b border-black/10 px-3 py-3">
+                          <span className="inline-flex rounded-full border-2 border-[#1a3a2f] bg-[#f7f3e8] px-2.5 py-1 text-xs font-black">
+                            {prediction.pointsAwarded} pts
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
