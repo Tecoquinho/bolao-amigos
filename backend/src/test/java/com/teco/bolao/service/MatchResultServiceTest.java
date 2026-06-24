@@ -96,6 +96,19 @@ class MatchResultServiceTest {
     }
 
     @Test
+    void shouldResetDrawPredictionToZeroWhenOfficialResultHasWinner() {
+        Match match = finishedMatch(1L, 1, 1);
+        Prediction prediction = prediction(match, 2, 2);
+        prediction.updatePointsAwarded(3);
+
+        mockUpdate(match, prediction);
+
+        matchResultService.updateOfficialResult(1L, 2, 1);
+
+        assertEquals(0, prediction.getPointsAwarded());
+    }
+
+    @Test
     void shouldDecreasePointsAfterOfficialScoreCorrection() {
         Match match = finishedMatch(1L, 2, 1);
         Prediction prediction = prediction(match, 2, 1);

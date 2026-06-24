@@ -24,6 +24,10 @@ public class ScoreCalculationService {
             return isDraw(predictedHomeScore, predictedAwayScore) ? 3 : 0;
         }
 
+        if (isDraw(predictedHomeScore, predictedAwayScore)) {
+            return 0;
+        }
+
         if (hasCorrectGoalsForActualWinner(actualHomeScore, actualAwayScore, predictedHomeScore, predictedAwayScore)) {
             return 2;
         }
