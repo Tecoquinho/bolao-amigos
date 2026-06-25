@@ -77,6 +77,16 @@ class ScoreCalculationServiceTest {
     }
 
     @Test
+    void shouldReturnZeroWhenPredictionIsDrawAndMatchesActualWinnerGoals() {
+        assertEquals(0, scoreCalculationService.calculatePoints(3, 1, 3, 3));
+    }
+
+    @Test
+    void shouldReturnZeroWhenPredictionIsDrawAndMatchesActualLoserGoals() {
+        assertEquals(0, scoreCalculationService.calculatePoints(2, 1, 1, 1));
+    }
+
+    @Test
     void shouldThrowExceptionForNegativeScores() {
         assertThrows(IllegalArgumentException.class, () -> scoreCalculationService.calculatePoints(2, 1, -1, 0));
     }

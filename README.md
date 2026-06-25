@@ -78,6 +78,7 @@ Importante:
 
 - vale apenas a maior pontuacao aplicavel
 - nao ha acumulacao entre regras
+- se o palpite for empate e o jogo terminar com vencedor, o palpite recebe `0 pontos`
 
 ## Estrutura do projeto
 
@@ -208,6 +209,7 @@ Script auxiliar:
 Script operacional:
 
 - [backend/update-known-results.ps1](backend/update-known-results.ps1)
+- [backend/recalculate-finished-results.ps1](backend/recalculate-finished-results.ps1)
 
 O fluxo oficial usa:
 
