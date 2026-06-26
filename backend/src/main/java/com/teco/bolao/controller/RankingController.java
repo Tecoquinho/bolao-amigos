@@ -1,7 +1,7 @@
 package com.teco.bolao.controller;
 
 import com.teco.bolao.dto.RankingEntryResponseDto;
-import com.teco.bolao.service.RankingService;
+import com.teco.bolao.service.PublicSnapshotService;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/ranking")
 public class RankingController {
 
-    private final RankingService rankingService;
+    private final PublicSnapshotService publicSnapshotService;
 
-    public RankingController(RankingService rankingService) {
-        this.rankingService = rankingService;
+    public RankingController(PublicSnapshotService publicSnapshotService) {
+        this.publicSnapshotService = publicSnapshotService;
     }
 
     @GetMapping
     public List<RankingEntryResponseDto> getRanking() {
-        return rankingService.getRanking();
+        return publicSnapshotService.getRanking();
     }
 }

@@ -5,7 +5,7 @@ import com.teco.bolao.dto.MatchResultUpdateRequestDto;
 import com.teco.bolao.entity.MatchStatus;
 import com.teco.bolao.entity.TournamentPhase;
 import com.teco.bolao.service.MatchResultService;
-import com.teco.bolao.service.MatchService;
+import com.teco.bolao.service.PublicSnapshotService;
 import jakarta.validation.Valid;
 import java.time.LocalDate;
 import java.util.List;
@@ -22,14 +22,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/matches")
 public class MatchController {
 
-    private final MatchService matchService;
+    private final PublicSnapshotService publicSnapshotService;
     private final MatchResultService matchResultService;
 
     public MatchController(
-            MatchService matchService,
+            PublicSnapshotService publicSnapshotService,
             MatchResultService matchResultService
     ) {
-        this.matchService = matchService;
+        this.publicSnapshotService = publicSnapshotService;
         this.matchResultService = matchResultService;
     }
 
@@ -39,12 +39,12 @@ public class MatchController {
             @RequestParam(required = false) TournamentPhase phase,
             @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date
     ) {
-        return matchService.getMatches(status, phase, date);
+        return publicSnapshotService.getMatches(status, phase, date);
     }
 
     @GetMapping("/{matchId}")
     public MatchResponseDto getMatch(@PathVariable Long matchId) {
-        return matchService.getMatch(matchId);
+        return publicSnapshotService.getMatch(matchId);
     }
 
     @PatchMapping("/{matchId}/result")

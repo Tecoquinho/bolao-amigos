@@ -3,6 +3,7 @@ package com.teco.bolao.service;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import com.teco.bolao.dto.MatchResponseDto;
@@ -31,12 +32,15 @@ class MatchResultServiceTest {
     @Mock
     private PredictionRepository predictionRepository;
 
+    @Mock
+    private PublicSnapshotService publicSnapshotService;
+
     private MatchResultService matchResultService;
 
     @BeforeEach
     void setUp() {
         PredictionService predictionService = new PredictionService(predictionRepository, new ScoreCalculationService());
-        matchResultService = new MatchResultService(matchService, predictionService);
+        matchResultService = new MatchResultService(matchService, predictionService, publicSnapshotService);
     }
 
     @Test
@@ -53,6 +57,7 @@ class MatchResultServiceTest {
         assertEquals(0, prediction.getPointsAwarded());
         assertEquals(1, match.getHomeScore());
         assertEquals(1, match.getAwayScore());
+        verify(publicSnapshotService).refreshSnapshots();
     }
 
     @Test

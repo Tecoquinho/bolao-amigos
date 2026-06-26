@@ -11,13 +11,16 @@ public class MatchResultService {
 
     private final MatchService matchService;
     private final PredictionService predictionService;
+    private final PublicSnapshotService publicSnapshotService;
 
     public MatchResultService(
             MatchService matchService,
-            PredictionService predictionService
+            PredictionService predictionService,
+            PublicSnapshotService publicSnapshotService
     ) {
         this.matchService = matchService;
         this.predictionService = predictionService;
+        this.publicSnapshotService = publicSnapshotService;
     }
 
     @Transactional
@@ -25,6 +28,8 @@ public class MatchResultService {
         Match match = matchService.getMatchEntity(matchId);
         match.updateOfficialResult(homeScore, awayScore, OffsetDateTime.now());
         predictionService.recalculatePointsForMatch(match);
-        return matchService.toResponse(match);
+        MatchResponseDto response = matchService.toResponse(match);
+        publicSnapshotService.refreshSnapshots();
+        return response;
     }
 }

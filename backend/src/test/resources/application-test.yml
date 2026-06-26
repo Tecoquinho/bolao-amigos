@@ -10,3 +10,8 @@ spring:
     open-in-view: false
   flyway:
     enabled: true
+
+app:
+  snapshots:
+    enabled: false
+    directory: ${java.io.tmpdir}/bolao-test-snapshots

@@ -32,19 +32,22 @@ public class SeedImportService {
     private final MatchRepository matchRepository;
     private final PredictionRepository predictionRepository;
     private final ScoreCalculationService scoreCalculationService;
+    private final PublicSnapshotService publicSnapshotService;
 
     public SeedImportService(
             ParticipantRepository participantRepository,
             TeamRepository teamRepository,
             MatchRepository matchRepository,
             PredictionRepository predictionRepository,
-            ScoreCalculationService scoreCalculationService
+            ScoreCalculationService scoreCalculationService,
+            PublicSnapshotService publicSnapshotService
     ) {
         this.participantRepository = participantRepository;
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
         this.predictionRepository = predictionRepository;
         this.scoreCalculationService = scoreCalculationService;
+        this.publicSnapshotService = publicSnapshotService;
     }
 
     @Transactional
@@ -146,7 +149,7 @@ public class SeedImportService {
             predictionsCreated++;
         }
 
-        return new SeedImportResultDto(
+        SeedImportResultDto result = new SeedImportResultDto(
                 participantsCreated,
                 participantsSkipped,
                 teamsCreated,
@@ -156,6 +159,9 @@ public class SeedImportService {
                 predictionsCreated,
                 predictionsSkipped
         );
+
+        publicSnapshotService.refreshSnapshots();
+        return result;
     }
 
     private void validatePayload(SeedImportRequestDto request) {
