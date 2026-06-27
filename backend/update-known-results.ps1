@@ -38,6 +38,8 @@ $confirmedResults = @(
     @{ MatchNumber = 38; HomeScore = 2; AwayScore = 2; Game = "Iran x New Zealand" },
     @{ MatchNumber = 43; HomeScore = 0; AwayScore = 0; Game = "Spain x Cape Verde" },
     @{ MatchNumber = 44; HomeScore = 1; AwayScore = 1; Game = "Saudi Arabia x Uruguay" },
+    @{ MatchNumber = 47; HomeScore = 0; AwayScore = 1; Game = "Uruguay x Spain" },
+    @{ MatchNumber = 48; HomeScore = 0; AwayScore = 0; Game = "Cape Verde x Saudi Arabia" },
     @{ MatchNumber = 49; HomeScore = 3; AwayScore = 1; Game = "France x Senegal" },
     @{ MatchNumber = 50; HomeScore = 1; AwayScore = 4; Game = "Iraq x Norway" },
     @{ MatchNumber = 53; HomeScore = 1; AwayScore = 4; Game = "Norway x France" },
