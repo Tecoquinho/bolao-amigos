@@ -48,14 +48,20 @@ $confirmedResults = @(
     @{ MatchNumber = 54; HomeScore = 5; AwayScore = 0; Game = "Senegal x Iraq" },
     @{ MatchNumber = 55; HomeScore = 3; AwayScore = 0; Game = "Argentina x Algeria" },
     @{ MatchNumber = 56; HomeScore = 3; AwayScore = 1; Game = "Austria x Jordan" },
+    @{ MatchNumber = 59; HomeScore = 1; AwayScore = 3; Game = "Jordan x Argentina" },
+    @{ MatchNumber = 60; HomeScore = 3; AwayScore = 3; Game = "Algeria x Austria" },
     @{ MatchNumber = 61; HomeScore = 1; AwayScore = 1; Game = "Portugal x DR Congo" },
     @{ MatchNumber = 62; HomeScore = 1; AwayScore = 3; Game = "Uzbekistan x Colombia" },
     @{ MatchNumber = 63; HomeScore = 1; AwayScore = 0; Game = "Colombia x DR Congo" },
     @{ MatchNumber = 64; HomeScore = 5; AwayScore = 0; Game = "Portugal x Uzbekistan" },
+    @{ MatchNumber = 65; HomeScore = 0; AwayScore = 0; Game = "Colombia x Portugal" },
+    @{ MatchNumber = 66; HomeScore = 3; AwayScore = 1; Game = "DR Congo x Uzbekistan" },
     @{ MatchNumber = 67; HomeScore = 4; AwayScore = 2; Game = "England x Croatia" },
     @{ MatchNumber = 68; HomeScore = 1; AwayScore = 0; Game = "Ghana x Panama" },
     @{ MatchNumber = 69; HomeScore = 0; AwayScore = 1; Game = "Panama x Croatia" },
-    @{ MatchNumber = 70; HomeScore = 0; AwayScore = 0; Game = "England x Ghana" }
+    @{ MatchNumber = 70; HomeScore = 0; AwayScore = 0; Game = "England x Ghana" },
+    @{ MatchNumber = 71; HomeScore = 0; AwayScore = 2; Game = "Panama x England" },
+    @{ MatchNumber = 72; HomeScore = 2; AwayScore = 1; Game = "Croatia x Ghana" }
 )
 
 Write-Host "Fetching matches from $BaseUrl ..."
